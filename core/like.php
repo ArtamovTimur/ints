@@ -4,6 +4,7 @@
 
 
 	// test
+	// fgdfssdgfhghfsa
 	$conn = mysqli_connect('localhost', 'root', '', 'inst');
 
 	$user_like = mysqli_query($conn, "SELECT * FROM likes WHERE user_id=$user_id AND photo_id=$photo_id");
